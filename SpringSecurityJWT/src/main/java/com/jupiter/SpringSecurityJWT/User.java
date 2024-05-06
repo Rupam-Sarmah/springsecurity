@@ -24,7 +24,6 @@ import lombok.Data;
 @Data
 @Builder
 @AllArgsConstructor
-
 public class User implements UserDetails {
 	
 	@Id
